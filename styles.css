@@ -11,6 +11,10 @@ a:visited {
   text-decoration: none;
 }
 
+* {
+  margin: 10px 0;
+}
+
 nav {
   height: 10vh;
   background-color: #fafafa;
@@ -38,6 +42,15 @@ nav {
   color: #fafafa;
 }
 
+h1, h2 {
+  display: block;
+  width: fit-content;
+  background-color: #fafafa;
+  text-align: center;
+  padding: 10px 20px;
+  color: #0DE7D2;
+}
+
 header {
-  height: 10vh;
+  height: 25vh;
 }

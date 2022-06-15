@@ -1,3 +1,7 @@
+* {
+    margin: 10px 0;
+}
+
 nav {
     height: 10vh;
     background-color: $background-color;
@@ -26,5 +30,13 @@ nav {
     color: $background-color;
 }
 
+h1,h2 {
+    display: block;
+    width: fit-content;
+    background-color: $background-color;
+    text-align: center;
+    padding: 10px 20px;
+    color: $secondary-color;
+}
 
 
