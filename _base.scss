@@ -6,3 +6,14 @@ $main-color: #172093;
 $secondary-color: #0DE7D2;
 $background-color: #fafafa;
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-body;
+    color: $color-black;
+}
+a:link,
+a:visited {
+    text-decoration: none;
+}
