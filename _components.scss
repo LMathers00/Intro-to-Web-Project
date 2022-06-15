@@ -3,8 +3,16 @@ nav {
     background-color: $background-color;
     padding: 0 40px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+}
+
+.Login-button {
+    display: block;
+    width: 100px;
+    background-color: $background-color;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px red;
+    color: $main-color;
 }
 
 
@@ -18,13 +26,5 @@ nav {
     color: $background-color;
 }
 
-.Login-button {
-    display: block;
-    width: 100px;
-    background-color: $background-color;
-    text-align: center;
-    padding: 10px 20px;
-    border-radius: 10px red;
-    color: $main-color;
-}
+
 

@@ -2,7 +2,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: "Roboto", "Sans-serif";
   color: #172093;
 }
@@ -17,18 +16,6 @@ nav {
   background-color: #fafafa;
   padding: 0 40px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.button {
-  display: block;
-  width: 100px;
-  background-color: #172093;
-  text-align: center;
-  padding: 10px 20px;
-  border-radius: 10px red;
-  color: #fafafa;
 }
 
 .Login-button {
@@ -41,9 +28,16 @@ nav {
   color: #172093;
 }
 
+.button {
+  display: block;
+  width: 100px;
+  background-color: #172093;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px red;
+  color: #fafafa;
+}
+
 header {
-  height: 90vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 10vh;
 }
