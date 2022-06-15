@@ -22,12 +22,13 @@ nav {
   display: flex;
 }
 
-.Login-button {
+.Login {
   display: block;
   width: 100px;
   background-color: #fafafa;
   text-align: center;
   padding: 10px 20px;
+  margin: auto;
   border-radius: 10px red;
   color: #172093;
 }
@@ -49,6 +50,25 @@ h1, h2 {
   text-align: center;
   padding: 10px 20px;
   color: #0DE7D2;
+}
+
+h3, h4, h5, h6, h7, h8, h9, h10, h11, h12, h13, h14, h15, h16 {
+  display: block;
+  width: fit-content;
+  background-color: #fafafa;
+  text-align: center;
+  padding: 10px 20px;
+  color: #172093;
+}
+
+h5, h7, h9, h11 {
+  font-size: 30px;
+}
+
+.peng2 {
+  width: 350px;
+  float: left;
+  margin-right: 10px;
 }
 
 header {
