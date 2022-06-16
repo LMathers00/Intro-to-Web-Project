@@ -29,7 +29,7 @@ nav {
   text-align: center;
   padding: 10px 20px;
   margin: auto;
-  border-radius: 10px red;
+  border-radius: 10px;
   color: #172093;
 }
 
@@ -39,7 +39,6 @@ nav {
   background-color: #172093;
   text-align: center;
   padding: 10px 20px;
-  border-radius: 10px red;
   color: #fafafa;
 }
 
