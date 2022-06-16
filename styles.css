@@ -60,7 +60,7 @@ h3, h4, h5, h6, h7, h8, h9, h10, h11, h12, h13, h14, h15, h16 {
   color: #172093;
 }
 
-h5, h7, h9, h11 {
+h5, h8, h9, h12 {
   font-size: 30px;
 }
 
@@ -70,6 +70,18 @@ h5, h7, h9, h11 {
   margin-right: 10px;
 }
 
+div {
+  display: flex;
+  flex-direction: row;
+}
+
 header {
   height: 25vh;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*=col-] {
+    width: 100%;
+  }
 }
